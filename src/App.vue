@@ -25,7 +25,7 @@ export default {
     Header,
     Section1,
     Footer,
-  }
+  },
 }
 </script>
 
