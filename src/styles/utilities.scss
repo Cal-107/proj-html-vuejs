@@ -1,3 +1,5 @@
+@import '@/styles/variables';
+
 // Utilities
 
 .d-flx {
@@ -15,4 +17,34 @@
 
 .alignIteCent {
     align-items: center;
+}
+
+.space-bet {
+    justify-content: space-between;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.flx-grow {
+    flex-grow: 1;
+}
+
+.upCase {
+    text-transform: uppercase;
+}
+
+.fs-1 {
+    font-size: .7rem
+}
+
+.btn-custom {
+    font-size: .7rem;
+    letter-spacing: .2rem;
+    color: $text-color-1;
+    border: none;
+    background-color: $bg-15;
+    padding: .8rem 2rem;
+    cursor: pointer;
 }
