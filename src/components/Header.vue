@@ -150,8 +150,9 @@ header {
   color: $text-color-1;
   overflow: hidden;
   section {
-    background-image: url(../assets/svg/grunge-pattern-01.svg);
+    background-image: url(../assets/svg/minimal-white-background-with-black-polka-dot-pattern.svg);
     filter: invert(0.1);
+    background-size: contain;
     position: relative;
     .container {
       padding: 1rem 0 3rem;

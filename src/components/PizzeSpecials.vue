@@ -2,7 +2,7 @@
   <section class="d-flx">
     <div class="box">
       <div class="photo-box">
-        <img src="../assets/img/h1-img-4.jpg" alt="" />
+        <img class="img-relative" src="../assets/img/h1-img-4.jpg" alt="" />
         <img class="img-abs" src="../assets/img/h1-img-7n.png" alt="" />
       </div>
     </div>
@@ -69,10 +69,13 @@ section {
   }
   .photo-box {
     width: 100%;
+    height: 100%;
     position: relative;
     img {
       width: 100%;
-      object-fit: contain;
+    }
+    .img-relative {
+      height: 100%;
     }
     .img-abs {
       width: 40%;
