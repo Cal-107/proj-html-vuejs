@@ -58,6 +58,13 @@
     display: flex;
     justify-content: center;
     text-transform: uppercase;
+    cursor: pointer;
+    span {
+        transform: translateY(7px);
+        font-size: .5rem;
+        letter-spacing: .15rem;
+        color: $text-color-13;
+    }
 }
 
 .prev-tr {
@@ -65,8 +72,7 @@
     position: absolute;
     top: 50%;
     left: -12px;
-    font-size: .7rem;
-    letter-spacing: .15rem;
+    
 }
 
 .next-tr {
@@ -74,6 +80,4 @@
     position: absolute;
     top: 50%;
     right: -12px;
-    font-size: .7rem;
-    letter-spacing: .15rem;
 }
