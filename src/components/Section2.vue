@@ -30,6 +30,7 @@ section {
     background-position-x: -20px;
     background-position-y: 10px;
     background-repeat: no-repeat;
+    background-attachment: center;
     height: 400px;
 }
 </style>

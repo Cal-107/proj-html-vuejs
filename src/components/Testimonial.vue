@@ -6,9 +6,7 @@
         "forget the trendy pizza shops, this hidden spot makes the best new
         york-style pizza slice in naples"
       </h3>
-      <div>
-        washington post 2018
-      </div>
+      <div>washington post 2018</div>
       <div class="ellipsis">
         <i class="fas fa-circle"></i>
         <i class="fas fa-circle"></i>
@@ -37,14 +35,14 @@ export default {
     width: 36%;
     h3 {
       font-weight: 500;
-      padding: 1rem 0 .2rem;
+      padding: 1rem 0 0.2rem;
       color: #303030;
-      letter-spacing: .05rem;
+      letter-spacing: 0.05rem;
     }
     div {
       color: $text-color-12;
-      font-size: .6rem;
-      letter-spacing: .1rem;
+      font-size: 0.6rem;
+      letter-spacing: 0.1rem;
     }
     .fa-quote-left {
       font-size: 70px;
@@ -53,9 +51,9 @@ export default {
     .ellipsis {
       padding: 1rem;
       color: $text-color-3;
-      font-size: .3rem;
+      font-size: 0.3rem;
       i {
-        padding: .11rem;
+        padding: 0.11rem;
       }
       i:nth-child(1) {
         transform: scale(1.4);
