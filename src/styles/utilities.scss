@@ -1,83 +1,82 @@
-@import '@/styles/variables';
+@import "@/styles/variables";
 
 // Utilities
 
 .d-flx {
-    display: flex;
+  display: flex;
 }
 
 .d-flxCol {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .justContCent {
-    justify-content: center;
+  justify-content: center;
 }
 
 .alignIteCent {
-    align-items: center;
+  align-items: center;
 }
 
 .space-bet {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .space-evenly {
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .flx-grow {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .upCase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .fs-1 {
-    font-size: .7rem
+  font-size: 0.7rem;
 }
 
 .btn-custom {
-    font-size: .7rem;
-    letter-spacing: .2rem;
-    color: $text-color-1;
-    border: none;
-    background-color: $bg-15;
-    padding: .8rem 2rem;
-    cursor: pointer;
+  font-size: 0.7rem;
+  letter-spacing: 0.2rem;
+  color: $text-color-1;
+  border: none;
+  background-color: $bg-15;
+  padding: 0.8rem 2rem;
+  cursor: pointer;
 }
 
 .btn-prev-next {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: $bg-1;
-    color: $text-color-18;
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    cursor: pointer;
-    span {
-        transform: translateY(7px);
-        font-size: .5rem;
-        letter-spacing: .15rem;
-        color: $text-color-13;
-    }
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: $bg-1;
+  color: $text-color-18;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  span {
+    transform: translateY(7px);
+    font-size: 0.5rem;
+    letter-spacing: 0.15rem;
+    color: $text-color-13;
+  }
 }
 
 .prev-tr {
-    transform: translate(-50%, -50%) rotate(90deg);
-    position: absolute;
-    top: 50%;
-    left: -12px;
-    
+  transform: translate(-50%, -50%) rotate(90deg);
+  position: absolute;
+  top: 50%;
+  left: -12px;
 }
 
 .next-tr {
-    transform: translate(50%, -50%) rotate(-90deg);
-    position: absolute;
-    top: 50%;
-    right: -12px;
+  transform: translate(50%, -50%) rotate(-90deg);
+  position: absolute;
+  top: 50%;
+  right: -12px;
 }

@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-
     <!-- Start Header -->
     <Header />
 
     <!-- Start Main -->
     <main>
       <Section1 />
+      <Section2 />
     </main>
 
     <!-- Start Footer -->
@@ -15,21 +15,23 @@
 </template>
 
 <script>
-import Header from '@/components/Header.vue';
-import Section1 from '@/components/Section1.vue';
-import Footer from '@/components/Footer.vue';
+import Header from "@/components/Header.vue";
+import Section1 from "@/components/Section1.vue";
+import Section2 from "@/components/Section2.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Header,
     Section1,
+    Section2,
     Footer,
   },
-}
+};
 </script>
 
 <style lang="scss">
-@import '@/styles/variables';
-@import '@/styles/globals';
+@import "@/styles/variables";
+@import "@/styles/globals";
 </style>
