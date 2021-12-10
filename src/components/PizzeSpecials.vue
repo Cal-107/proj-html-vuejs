@@ -84,7 +84,7 @@ section {
   }
   .menu-list {
     .menu-box {
-      width: 50%;
+      width: 60%;
       .title {
         font-size: 2rem;
         font-weight: 500;
@@ -103,10 +103,10 @@ section {
       }
       .description,
       .description2 {
-        font-weight: 300;
+        font-weight: 400;
         width: 76%;
         color: $text-color-4;
-        letter-spacing: 0.05rem;
+        letter-spacing: 0.04rem;
       }
       ul {
         li {

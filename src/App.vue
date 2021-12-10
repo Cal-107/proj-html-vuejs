@@ -8,6 +8,7 @@
       <Section1 />
       <Section2 />
       <PizzeSpecials />
+      <BuildYourPizza />
     </main>
 
     <!-- Start Footer -->
@@ -20,6 +21,7 @@ import Header from "@/components/Header.vue";
 import Section1 from "@/components/Section1.vue";
 import Section2 from "@/components/Section2.vue";
 import PizzeSpecials from "@/components/PizzeSpecials.vue";
+import BuildYourPizza from "@/components/BuildYourPizza.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
@@ -29,6 +31,7 @@ export default {
     Section1,
     Section2,
     PizzeSpecials,
+    BuildYourPizza,
     Footer,
   },
 };
