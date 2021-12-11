@@ -13,6 +13,7 @@
       <Partners />
       <ChoosePizza />
       <PizzaDeals />
+      <BookATable />
     </main>
 
     <!-- Start Footer -->
@@ -30,6 +31,7 @@ import OurTeam from "@/components/OurTeam.vue";
 import Partners from "@/components/Partners.vue";
 import ChoosePizza from "@/components/ChoosePizza.vue";
 import PizzaDeals from "@/components/PizzaDeals.vue";
+import BookATable from "@/components/BookATable.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
@@ -44,6 +46,7 @@ export default {
     Partners,
     ChoosePizza,
     PizzaDeals,
+    BookATable,
     Footer,
   },
 };

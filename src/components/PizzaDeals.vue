@@ -1,6 +1,6 @@
 <template>
   <section class="d-flx upCase">
-    <div class="box d-flxCol justContCent alignIteCent">
+    <div class="box d-flx justContCent alignIteCent">
       <div class="info-box">
         <div class="slogan">made with love</div>
         <h1 class="title">delish pizza deals</h1>
@@ -75,14 +75,14 @@ section {
       width: 47%;
       margin-right: 5rem;
       .slogan {
-          color: $text-color-13;
-          font-size: .65rem;
-          letter-spacing: .07rem;
+        color: $text-color-13;
+        font-size: 0.65rem;
+        letter-spacing: 0.07rem;
       }
       .title {
-          padding-top: .5rem;
-          font-size: 1.7rem;
-          font-weight: 500;
+        padding-top: 0.5rem;
+        font-size: 1.7rem;
+        font-weight: 500;
       }
       .info {
         border-bottom: 1.5px dotted $text-color-6;
@@ -105,19 +105,19 @@ section {
           }
         }
         .type {
-            font-size: 1.3rem;
-            line-height: 28px;
-            padding-bottom: .7rem;
+          font-size: 1.3rem;
+          line-height: 28px;
+          padding-bottom: 0.7rem;
         }
         .place {
-            color: $text-color-13;
-            font-size: .6rem;
-            text-transform: capitalize;
-            letter-spacing: .07rem;
-            i {
-                font-size: .8rem;
-                padding-right: .5rem;
-            }
+          color: $text-color-13;
+          font-size: 0.6rem;
+          text-transform: capitalize;
+          letter-spacing: 0.07rem;
+          i {
+            font-size: 0.8rem;
+            padding-right: 0.5rem;
+          }
         }
       }
     }

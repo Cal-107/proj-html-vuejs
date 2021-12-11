@@ -188,7 +188,6 @@ header {
         .moustache {
           fill: currentColor;
           width: 20px;
-          margin-right: 5px;
         }
       }
     }

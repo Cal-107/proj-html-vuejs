@@ -15,7 +15,7 @@
       <li class="upCase" v-for="(pizza, i) in pizzasArray" :key="`pizza-${i}`">
         <img :src="pizza.url" alt="" />
         <h4>{{ pizza.name }}</h4>
-        <span class="priceDeleted">{{ pizza.priceDeleted }}</span>
+        <span v-show="pizza.priceDeleted" class="priceDeleted"> $65.00 </span>
         <span class="price1">{{ pizza.price }}</span>
         <div v-show="pizza.soldOut" class="sold-out">
           <svg
@@ -45,7 +45,7 @@ export default {
           url: require("@/assets/img/h3-product-img-1a-100x100.png"),
           name: "bismark",
           price: "$55.00",
-          priceDeleted: "$45.00 ",
+          priceDeleted: true,
           soldOut: false,
         },
         {
@@ -101,7 +101,7 @@ export default {
 @import "@/styles/utilities";
 
 section {
-    padding-bottom: 5rem;
+  padding-bottom: 5rem;
   .title {
     text-align: center;
     width: 24%;
@@ -143,6 +143,7 @@ section {
       text-decoration: line-through;
       font-size: 0.85rem;
       color: $text-color-4;
+      padding-right: 0.5rem;
     }
     li {
       text-align: center;
