@@ -62,7 +62,7 @@ export default {
 @import "@/styles/utilities";
 
 section {
-    padding: .5rem 0;
+  padding: 0.5rem 0;
   .box,
   .menu-list {
     width: 50%;
@@ -94,7 +94,7 @@ section {
       }
       .subTitle {
         font-weight: 400;
-        padding-bottom: .2rem;
+        padding-bottom: 0.2rem;
       }
       .price {
         font-weight: 400;

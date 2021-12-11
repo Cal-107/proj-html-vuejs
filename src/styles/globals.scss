@@ -13,6 +13,10 @@
   margin: 0 auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #app {
   font-size: $base-font;
   li {
