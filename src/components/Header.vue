@@ -146,12 +146,11 @@ export default {
 @import "@/styles/utilities";
 
 header {
-  background-color: $bg-19;
+  background-color: $bg-18;
   color: $text-color-1;
   overflow: hidden;
   section {
-    background-image: url(../assets/svg/minimal-white-background-with-black-polka-dot-pattern.svg);
-    filter: invert(0.1);
+    background-image: url(../assets/svg/grunge-pattern-01.svg);
     background-size: contain;
     position: relative;
     .container {

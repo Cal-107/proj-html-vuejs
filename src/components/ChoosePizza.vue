@@ -100,72 +100,75 @@ export default {
 @import "@/styles/variables";
 @import "@/styles/utilities";
 
-.title {
-  text-align: center;
-  width: 24%;
-  padding: 4.5rem 0 2rem;
-  .sub-title {
+section {
+    padding-bottom: 5rem;
+  .title {
+    text-align: center;
+    width: 24%;
+    padding: 4.5rem 0 2rem;
+    .sub-title {
       font-weight: 400;
-      font-size: .65rem;
-      letter-spacing: .08rem;
-      word-spacing: .1rem;
+      font-size: 0.65rem;
+      letter-spacing: 0.08rem;
+      word-spacing: 0.1rem;
       color: $text-color-12;
-  }
-  h1 {
+    }
+    h1 {
       font-weight: 500;
       font-size: 1.7rem;
-      padding: .1rem 0 .7rem;
-  }
-  .description {
+      padding: 0.1rem 0 0.7rem;
+    }
+    .description {
       color: $text-color-5;
       font-weight: 300;
+    }
   }
-}
 
-ul {
-  overflow: scroll;
-  letter-spacing: 0.03rem;
-  line-height: 21px;
-  position: relative;
-  h4 {
-    color: $text-color-6;
-    font-weight: 400;
-    font-size: 0.9rem;
-    padding-top: 0.7rem;
-  }
-  .price1 {
-    color: $text-color-12;
-    font-size: 0.85rem;
-  }
-  .priceDeleted {
-    text-decoration: line-through;
-    font-size: 0.85rem;
-    color: $text-color-4;
-  }
-  li {
-    text-align: center;
-    padding: 3rem;
+  ul {
+    overflow: scroll;
+    letter-spacing: 0.03rem;
+    line-height: 21px;
     position: relative;
-    img {
-      width: 200px;
+    h4 {
+      color: $text-color-6;
+      font-weight: 400;
+      font-size: 0.9rem;
+      padding-top: 0.7rem;
     }
-  }
-  .sold-out {
-    svg {
-      fill: $fill-color-4;
-      width: 50px;
-      top: 14%;
-      right: 18%;
+    .price1 {
+      color: $text-color-12;
+      font-size: 0.85rem;
     }
-    span {
-      color: $text-color-1;
-      font-size: 0.7rem;
-      top: 18%;
-      right: 22.5%;
+    .priceDeleted {
+      text-decoration: line-through;
+      font-size: 0.85rem;
+      color: $text-color-4;
     }
-    svg,
-    span {
-      position: absolute;
+    li {
+      text-align: center;
+      padding: 3rem;
+      position: relative;
+      img {
+        width: 200px;
+      }
+    }
+    .sold-out {
+      svg {
+        fill: $fill-color-4;
+        width: 50px;
+        top: 14%;
+        right: 18%;
+      }
+      span {
+        color: $text-color-1;
+        font-size: 0.7rem;
+        top: 18%;
+        right: 22.5%;
+      }
+      svg,
+      span {
+        position: absolute;
+      }
     }
   }
 }
