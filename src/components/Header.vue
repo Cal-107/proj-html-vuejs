@@ -150,7 +150,7 @@ header {
   color: $text-color-1;
   overflow: hidden;
   section {
-    background-image: url(../assets/svg/grunge-pattern-01.svg);
+    background-image: url(../assets/img/footer-img-2.jpg);
     background-size: contain;
     position: relative;
     .container {

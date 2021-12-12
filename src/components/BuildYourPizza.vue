@@ -26,7 +26,7 @@ export default {
 section {
   height: 500px;
   background-image: url(../assets/img/h3-background-img.jpg);
-  background-size: cover;
+  background-attachment: fixed;
   .container {
     height: 100%;
   }

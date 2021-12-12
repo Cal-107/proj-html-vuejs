@@ -35,9 +35,9 @@ export default {
 section {
   margin: 8px 0;
   background-image: url(../assets/img/h3-background-img-3.jpg);
+  background-size: cover;
   color: $text-color-1;
   .box {
-    width: 70%;
     padding: 5rem;
     position: relative;
     span {
