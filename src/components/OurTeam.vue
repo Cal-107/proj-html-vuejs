@@ -32,32 +32,32 @@ export default {
       imgArray2: [
         {
           url: require("@/assets/img/h1-team-1a-700x700.jpg"),
-          worker: 'Frank Bailey',
-          role: 'Kitchen Porter',
+          worker: "Frank Bailey",
+          role: "Kitchen Porter",
           social1: null,
           social2: null,
           social3: null,
         },
         {
           url: require("@/assets/img/h1-team-2a.jpg"),
-          worker: 'Alice Fox',
-          role: 'Call Center',
+          worker: "Alice Fox",
+          role: "Call Center",
           social1: null,
           social2: null,
           social3: null,
         },
         {
           url: require("@/assets/img/h1-team-4a.jpg"),
-          worker: 'Walter White',
-          role: 'Chief Chef',
+          worker: "Walter White",
+          role: "Chief Chef",
           social1: null,
           social2: null,
           social3: null,
         },
         {
           url: require("@/assets/img/h1-team-3a.jpg"),
-          worker: 'Jessie Pinkman',
-          role: 'Co-Chef',
+          worker: "Jessie Pinkman",
+          role: "Co-Chef",
           social1: null,
           social2: null,
           social3: null,
@@ -96,7 +96,7 @@ export default {
         width: 100%;
         height: 100%;
         opacity: 1;
-        transition: opacity 0.5s ease;
+        transition: opacity 0.5s ease 0.1s;
       }
       .hover-effect {
         position: absolute;
@@ -108,25 +108,25 @@ export default {
         color: $text-color-1;
         background-color: $bg-16;
         opacity: 0;
-        transition: all .5s ease .1s;
+        transition: all 0.5s ease 0.1s;
       }
       .worker {
         font-size: 1.6rem;
       }
       .role {
-        font-size: .8rem;
-        padding-bottom: .8rem;
+        font-size: 0.8rem;
+        padding-bottom: 0.8rem;
       }
       .socials {
         a {
-          i{
-            padding: 0 .3rem;
+          i {
+            padding: 0 0.3rem;
           }
         }
       }
       &:hover .hover-effect {
         opacity: 1;
-        letter-spacing: .30rem;
+        letter-spacing: 0.3rem;
       }
       &:hover img {
         opacity: 0;

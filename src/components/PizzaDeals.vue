@@ -68,7 +68,6 @@ section {
   .box {
     color: $text-color-1;
     width: 50%;
-    height: 700px;
     background-color: $bg-18;
     background-image: url(../assets/svg/grunge-pattern-01.svg);
     .info-box {

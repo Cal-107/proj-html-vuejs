@@ -27,7 +27,7 @@
 import Card1 from "@/components/Card1.vue";
 
 export default {
-  name: "Section1",
+  name: "Cards",
   components: {
     Card1,
   },

@@ -149,7 +149,7 @@ section {
       text-align: center;
       padding: 3rem;
       position: relative;
-      transition: all .5s ease;
+      transition: all 0.5s ease;
       &:hover {
         transform: translateY(-20px);
       }

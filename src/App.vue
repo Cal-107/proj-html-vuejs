@@ -5,8 +5,8 @@
 
     <!-- Start Main -->
     <main>
-      <Section1 />
-      <Section2 />
+      <Cards />
+      <Posts />
       <PizzeSpecials />
       <BuildYourPizza />
       <OurTeam />
@@ -23,8 +23,8 @@
 
 <script>
 import Header from "@/components/Header.vue";
-import Section1 from "@/components/Section1.vue";
-import Section2 from "@/components/Section2.vue";
+import Cards from "@/components/Cards.vue";
+import Posts from "@/components/Posts.vue";
 import PizzeSpecials from "@/components/PizzeSpecials.vue";
 import BuildYourPizza from "@/components/BuildYourPizza.vue";
 import OurTeam from "@/components/OurTeam.vue";
@@ -38,8 +38,8 @@ export default {
   name: "App",
   components: {
     Header,
-    Section1,
-    Section2,
+    Cards,
+    Posts,
     PizzeSpecials,
     BuildYourPizza,
     OurTeam,

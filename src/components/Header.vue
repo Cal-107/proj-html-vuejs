@@ -156,7 +156,7 @@ header {
         }
         li {
           padding: 0 1.1rem;
-          transition: all .3s ease;
+          transition: all 0.3s ease;
           &:hover {
             transform: translateY(-10px) scale(1.1);
           }

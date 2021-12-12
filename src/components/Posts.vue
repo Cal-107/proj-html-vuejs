@@ -14,7 +14,7 @@ export default {
     Testimonial,
     PrevNextBtn,
   },
-  name: "Section2",
+  name: "Posts",
 };
 </script>
 

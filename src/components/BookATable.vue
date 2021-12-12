@@ -17,7 +17,9 @@
       </div>
       <span></span>
       <button class="btn-custom upCase">book a table</button>
-      <div class="sponsor">*Powered by OpenTable</div>
+      <div class="sponsor">
+        *Powered by <a href="https://www.opentable.com/">OpenTable</a>
+      </div>
     </div>
   </section>
 </template>
@@ -77,6 +79,11 @@ section {
     .btn-custom {
       padding: 1.2rem 4rem;
       font-size: 0.55rem;
+    }
+    .sponsor {
+      &:hover a {
+        text-decoration: underline;
+      }
     }
   }
 }

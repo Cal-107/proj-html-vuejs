@@ -59,7 +59,10 @@
           />
         </a>
 
-        <div class="signature">Created with &#9829; by <a class="sig-color" href="/">Calogero Bonito</a></div>
+        <div class="signature">
+          Created with &#9829; by
+          <a class="sig-color" href="/">Calogero Bonito</a>
+        </div>
       </div>
       <div class="bg-footer"></div>
     </section>
@@ -177,6 +180,10 @@ footer {
             i {
               padding: 0 0.3rem;
               font-size: 0.8rem;
+              transition: all 0.5s ease;
+              &:hover {
+                transform: translateY(-5px);
+              }
             }
           }
         }
@@ -199,7 +206,7 @@ footer {
         font-size: 0.8rem;
         color: $text-color-6;
         font-weight: 300;
-        letter-spacing: .06rem;
+        letter-spacing: 0.06rem;
         .sig-color {
           color: $text-color-9;
         }
