@@ -28,15 +28,12 @@
                   home</a
                 >
               </li>
-
               <li>
                 <a href="/">pages</a>
               </li>
-
               <li>
                 <a href="/">menu</a>
               </li>
-
               <li>
                 <!-- Logo Center -->
                 <a href="/"
@@ -46,15 +43,12 @@
                     alt=""
                 /></a>
               </li>
-
               <li>
                 <a href="/">menu</a>
               </li>
-
               <li>
                 <a href="/">blog</a>
               </li>
-
               <li>
                 <a href="/">landings</a>
               </li>
@@ -164,7 +158,7 @@ header {
           padding: 0 1.1rem;
           transition: all .3s ease;
           &:hover {
-            transform: translateY(-10px) scale(1.3);
+            transform: translateY(-10px) scale(1.1);
           }
         }
         .cart {

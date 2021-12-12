@@ -4,6 +4,15 @@
       <ul class="d-flx">
         <li v-for="(item, index) in imgArray2" :key="`img-${index}`">
           <Card1 :url="item.url" />
+          <div class="hover-effect d-flxCol justContCent alignIteCent">
+            <span class="worker upCase"> {{ item.worker }} </span>
+            <span class="role"> {{ item.role }} </span>
+            <div class="socials">
+              <a href="/"><i class="fab fa-instagram"></i></a>
+              <a href="/"><i class="fab fa-twitter"></i></a>
+              <a href="/"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
         </li>
       </ul>
     </section>
@@ -23,15 +32,35 @@ export default {
       imgArray2: [
         {
           url: require("@/assets/img/h1-team-1a-700x700.jpg"),
+          worker: 'Frank Bailey',
+          role: 'Kitchen Porter',
+          social1: null,
+          social2: null,
+          social3: null,
         },
         {
           url: require("@/assets/img/h1-team-2a.jpg"),
+          worker: 'Alice Fox',
+          role: 'Call Center',
+          social1: null,
+          social2: null,
+          social3: null,
         },
         {
           url: require("@/assets/img/h1-team-4a.jpg"),
+          worker: 'Walter White',
+          role: 'Chief Chef',
+          social1: null,
+          social2: null,
+          social3: null,
         },
         {
           url: require("@/assets/img/h1-team-3a.jpg"),
+          worker: 'Jessie Pinkman',
+          role: 'Co-Chef',
+          social1: null,
+          social2: null,
+          social3: null,
         },
       ],
     };
@@ -68,6 +97,36 @@ export default {
         height: 100%;
         opacity: 1;
         transition: opacity 0.5s ease;
+      }
+      .hover-effect {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 85%;
+        height: 85%;
+        color: $text-color-1;
+        background-color: $bg-16;
+        opacity: 0;
+        transition: all .5s ease .1s;
+      }
+      .worker {
+        font-size: 1.6rem;
+      }
+      .role {
+        font-size: .8rem;
+        padding-bottom: .8rem;
+      }
+      .socials {
+        a {
+          i{
+            padding: 0 .3rem;
+          }
+        }
+      }
+      &:hover .hover-effect {
+        opacity: 1;
+        letter-spacing: .30rem;
       }
       &:hover img {
         opacity: 0;
