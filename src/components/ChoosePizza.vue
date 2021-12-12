@@ -149,8 +149,13 @@ section {
       text-align: center;
       padding: 3rem;
       position: relative;
+      transition: all .5s ease;
+      &:hover {
+        transform: translateY(-20px);
+      }
       img {
         width: 200px;
+        cursor: pointer;
       }
     }
     .sold-out {

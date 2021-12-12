@@ -56,6 +56,10 @@ section {
       li {
         img {
           width: 100%;
+          transition: all 1s ease-in-out;
+          &:hover {
+            transform: rotateY(360deg) scale(1.4);
+          }
         }
       }
     }

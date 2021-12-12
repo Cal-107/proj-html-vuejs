@@ -47,6 +47,12 @@
   background-color: $bg-16;
   padding: 0.8rem 2rem;
   cursor: pointer;
+  transition: all .5s ease;
+  &:hover {
+    color: $bg-16;
+    background-color: $text-color-1;
+    border-radius: 15px;
+  }
 }
 
 .btn-prev-next {
@@ -54,16 +60,23 @@
   height: 70px;
   border-radius: 50%;
   background-color: $bg-1;
-  color: $text-color-18;
   display: flex;
   justify-content: center;
   text-transform: uppercase;
   cursor: pointer;
+  transition: all .5s ease;
   span {
     transform: translateY(7px);
     font-size: 0.5rem;
     letter-spacing: 0.15rem;
     color: $text-color-13;
+    transition: all .5s ease;
+  }
+  &:hover {
+    background-color: $text-color-13;
+  }
+  &:hover span {
+    color: $bg-1;
   }
 }
 
