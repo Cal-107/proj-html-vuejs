@@ -1,22 +1,31 @@
 <template>
   <section class="d-flx justContCent alignIteCent">
     <div class="box upCase d-flx alignIteCent">
+      <!-- first input -->
       <div>
         <input type="text" placeholder="1 Person" />
         <i class="fas fa-user-friends"></i>
       </div>
       <span>for</span>
+
+      <!-- second input -->
       <div>
         <input type="text" placeholder="11/29/2020" />
         <i class="far fa-calendar"></i>
       </div>
       <span>at</span>
+
+      <!-- third input -->
       <div>
         <input type="text" placeholder="7:00 pm" />
         <i class="far fa-clock"></i>
       </div>
       <span></span>
+
+      <!-- button -->
       <button class="btn-custom upCase">book a table</button>
+
+      <!-- powered by -->
       <div class="sponsor">
         *Powered by <a href="https://www.opentable.com/">OpenTable</a>
       </div>

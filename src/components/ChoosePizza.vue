@@ -1,6 +1,7 @@
 <template>
   <section>
     <div class="d-flxCol justContCent alignIteCent">
+      <!-- title section -->
       <div class="title">
         <div class="sub-title upCase">choose your flavour</div>
         <h1 class="upCase">the best pizza menu in town</h1>
@@ -11,6 +12,7 @@
       </div>
     </div>
 
+    <!-- pizzas section -->
     <ul class="d-flx">
       <li class="upCase" v-for="(pizza, i) in pizzasArray" :key="`pizza-${i}`">
         <img :src="pizza.url" alt="" />

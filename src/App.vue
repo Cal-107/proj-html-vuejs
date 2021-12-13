@@ -14,6 +14,8 @@
       <ChoosePizza />
       <PizzaDeals />
       <BookATable />
+      <ToTopBtn />
+      <AsideBtn />
     </main>
 
     <!-- Start Footer -->
@@ -22,7 +24,10 @@
 </template>
 
 <script>
+// header
 import Header from "@/components/Header.vue";
+
+// main
 import Cards from "@/components/Cards.vue";
 import Posts from "@/components/Posts.vue";
 import PizzeSpecials from "@/components/PizzeSpecials.vue";
@@ -32,6 +37,10 @@ import Partners from "@/components/Partners.vue";
 import ChoosePizza from "@/components/ChoosePizza.vue";
 import PizzaDeals from "@/components/PizzaDeals.vue";
 import BookATable from "@/components/BookATable.vue";
+import ToTopBtn from "@/components/ToTopBtn.vue";
+import AsideBtn from "@/components/AsideBtn.vue";
+
+// footer
 import Footer from "@/components/Footer.vue";
 
 export default {
@@ -47,6 +56,8 @@ export default {
     ChoosePizza,
     PizzaDeals,
     BookATable,
+    ToTopBtn,
+    AsideBtn,
     Footer,
   },
 };

@@ -1,7 +1,9 @@
 <template>
   <section>
     <section class="card-container">
+      <!-- team section -->
       <ul class="d-flx">
+        <!-- call array -->
         <li v-for="(item, index) in imgArray2" :key="`img-${index}`">
           <Card1 :url="item.url" />
           <div class="hover-effect d-flxCol justContCent alignIteCent">

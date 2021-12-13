@@ -1,6 +1,7 @@
 <template>
   <section class="d-flx upCase">
     <div class="box d-flx justContCent alignIteCent">
+      <!-- left side -->
       <div class="info-box">
         <div class="slogan">made with love</div>
         <h1 class="title">delish pizza deals</h1>
@@ -25,6 +26,7 @@
       </div>
     </div>
 
+    <!-- rigth side -->
     <div class="comic-bg">
       <img src="../assets/img/h3-img-5a.jpg" alt="" />
     </div>

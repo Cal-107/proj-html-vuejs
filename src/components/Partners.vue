@@ -2,7 +2,8 @@
   <section>
     <div class="container">
       <ul class="partners-box d-flx">
-        <li v-for="(item, index) in patnersArray" :key="`img-${index}`">
+        <!-- call array -->
+        <li v-for="(item, index) in partnersArray" :key="`img-${index}`">
           <a :href="item.site">
             <img :src="item.url" alt="" />
           </a>
@@ -17,7 +18,7 @@ export default {
   name: "Partners",
   data() {
     return {
-      patnersArray: [
+      partnersArray: [
         {
           url: require("@/assets/img/h1-clients-img-4.png"),
           site: "/",

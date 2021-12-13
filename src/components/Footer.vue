@@ -3,6 +3,7 @@
     <section class="d-flx">
       <div class="faq d-flx justContCent alignIteCent">
         <div class="faq-box d-flx">
+          <!-- first column -->
           <div class="restaurants">
             <h4 class="upCase">find our restaurants</h4>
             <ul v-for="(restaurant, i) in restourantArray" :key="`id-${i}`">
@@ -12,6 +13,7 @@
             </ul>
           </div>
 
+          <!-- second column -->
           <div class="working-hours">
             <h4 class="upCase">working hours</h4>
             <ul v-for="(info, i) in infoArray" :key="`id2-${i}`">
@@ -42,6 +44,7 @@
             </ul>
           </div>
 
+          <!-- third column -->
           <div class="quote upCase">
             the don peppe crew <br />
             first and foremost <br />
@@ -51,6 +54,7 @@
           </div>
         </div>
 
+        <!-- natural product image -->
         <a href="">
           <img
             class="natural-product-logo"
@@ -59,6 +63,7 @@
           />
         </a>
 
+        <!-- signature -->
         <div class="signature">
           Created with &#9829; by
           <a class="sig-color" href="/">Calogero Bonito</a>

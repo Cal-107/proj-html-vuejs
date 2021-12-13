@@ -1,11 +1,14 @@
 <template>
   <section class="d-flx">
+    <!-- left side -->
     <div class="box">
       <div class="photo-box">
         <img class="img-relative" src="../assets/img/h1-img-4.jpg" alt="" />
         <img class="img-abs" src="../assets/img/h1-img-7n.png" alt="" />
       </div>
     </div>
+
+    <!-- right side -->
     <div class="menu-list d-flx justContCent alignIteCent">
       <div class="menu-box">
         <h1 class="title upCase">Specials*</h1>

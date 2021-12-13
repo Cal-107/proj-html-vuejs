@@ -1,6 +1,7 @@
 <template>
   <section>
     <div class="container">
+      <!-- quote section -->
       <div class="quote upCase d-flx alignIteCent">
         <p>
           go ahead and <br />

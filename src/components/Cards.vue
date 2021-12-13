@@ -1,6 +1,7 @@
 <template>
   <section class="card-container">
     <ul class="d-flx">
+      <!-- call array -->
       <li v-for="(item, index) in imgArray1" :key="`img-${index}`">
         <a href="/">
           <Card1 :url="item.url" />
